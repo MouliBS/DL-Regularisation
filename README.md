@@ -8,3 +8,22 @@ a^[2]_4 is the activation output by the 4th neuron of the 2nd layer
 a^[2](12) denotes the activation vector of the 2nd layer for the 12th training example.
 
 a^[2] denotes the activation vector of the 2nd layer.
+
+
+
+Which of these is a correct vectorized implementation of forward propagation for layer l, where 1≤l≤L?
+
+
+
+
+
+
+A = np.random.randn(4,3)
+B = np.sum(A, axis = 1, keepdims = True)
+print(B)
+B.shape
+[[ 1.00796631]
+ [ 0.9067746 ]
+ [-1.6589113 ]
+ [-0.57905721]]
+Out[6]: (4, 1)
