@@ -67,9 +67,10 @@ It doesn’t matter. So long as you initialize the weights randomly gradient des
 
 This will cause the inputs of the tanh to also be very large, causing the units to be “highly activated” and thus speed up learning compared to if the weights had to start from small values.
 
+True:
 This will cause the inputs of the tanh to also be very large, thus causing gradients to be close to zero. The optimization algorithm will thus become slow.
 
-True:
+:
 This will cause the inputs of the tanh to also be very large, thus causing gradients to also become large. You therefore have to set α to be very small to prevent divergence; this will slow down learning.
 
 
@@ -98,6 +99,10 @@ Z[1] and A[1] are (4,2)
 Z[1] and A[1] are (1,4)
 
 formula: A[1] =g(Z[1]) g is the activation function
+
+
+
+
 
 
 
