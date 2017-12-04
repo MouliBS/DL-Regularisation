@@ -80,20 +80,9 @@ Which of the following statements are True? (Check all that apply).
 
 https://user-images.githubusercontent.com/14886380/29200515-7fdd1548-7e88-11e7-9d05-0878fe96bcfa.png
 
-W[1] will have shape (2, 4)
-
 b[1] will have shape (4, 1)
-
 W[1] will have shape (4, 2)
-
-b[1] will have shape (2, 1)
-
 W[2] will have shape (1, 4)
-
-b[2] will have shape (4, 1)
-
-W[2] will have shape (4, 1)
-
 b[2] will have shape (1, 1)
 
 
