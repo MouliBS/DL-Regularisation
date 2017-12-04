@@ -1,7 +1,7 @@
 Week 3 Quiz - Shallow Neural Networks
 
 
-Which of the following are true? (Check all that apply.)
+qs 1 Which of the following are true? (Check all that apply.)
 
 X is a matrix in which each column is one training example.
 
@@ -12,23 +12,23 @@ a^[2](12) denotes the activation vector of the 2nd layer for the 12th training e
 a^[2] denotes the activation vector of the 2nd layer.
 
 
-The tanh activation usually works better than sigmoid activation function for hidden units because the mean of its output is closer to zero, and so it centers the data better for the next layer. True/False?
+qs 2 The tanh activation usually works better than sigmoid activation function for hidden units because the mean of its output is closer to zero, and so it centers the data better for the next layer. True/False?
 
 True
 
-Which of these is a correct vectorized implementation of forward propagation for layer l, where 1≤l≤L?
+qs 3 Which of these is a correct vectorized implementation of forward propagation for layer l, where 1≤l≤L?
 
 Z[l]=W[l]A[l−1]+b[l]
 A[l]=g[l](Z[l])
 
 
-You are building a binary classifier for recognizing cucumbers (y=1) vs. watermelons (y=0). Which one of these activation functions would you recommend using for the output layer?
+qs 4 You are building a binary classifier for recognizing cucumbers (y=1) vs. watermelons (y=0). Which one of these activation functions would you recommend using for the output layer?
 
 sigmoid
 Sigmoid outputs a value between 0 and 1 which makes it a very good choice for binary classification. You can classify as 0 if the output is less than 0.5 and classify as 1 if the output is more than 0.5. It can be done with tanh as well but it is less convenient as the output is between -1 and 1.
 
 
-Consider the following code:
+qs 5Consider the following code:
 
 A = np.random.randn(4,3)
 B = np.sum(A, axis = 1, keepdims = True)
